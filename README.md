@@ -1,3 +1,5 @@
+# cdfr2020Strategie
+
 Liste des actions effectuées par le robot/ cahier des chargespotentiel
 
 # Actions à effectuer
