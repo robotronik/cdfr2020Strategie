@@ -1,5 +1,5 @@
-#Definitions:
-##Scores
+# Definitions:
+## Scores
 	Base
 	ManchesAir
 	Phare
@@ -23,21 +23,21 @@
 	SetScore(value)
 	Execution
 	SetScore(Base)
-##Manches a air
+## Manches a air
 	Goto(DebutMancheAir)
 	LookAt(FinMancheAir)
 	DeployArm()
 	Goto(FinMancheAir)
 	SetScore(Base + ManchesAir)
 	RetractArm()
-##Girouette
+## Girouette
 	Goto(AttenteGirouette)
 	LookAt(PositionGirouette)
 	bShouldDockNorth = GetGirouetteValue()
-##Phare
+## Phare
 	Goto(PositionPhare)
 	SetScore(Base + ManchesAir + Phare)
-##Rentrer au port
+## Rentrer au port
 	if(bShouldDockNorth)
 	{ Goto(PortNord) }
 	else { Goto(PortSud) }
