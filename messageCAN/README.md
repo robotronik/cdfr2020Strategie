@@ -7,11 +7,11 @@
 
 **Quelles données doivent être échangées?**
 
-  *Position
+  *Position : x,y avec (x,y)€([0,3000]x[0,2000])
   
-  *Vitesse
+  *Vitesse : v€[0,?]
   
-  *Distance par rapport à un obstacle
+  *STOP urgent
 
 **Quel espace est dédié à quelle donnée?**
 
