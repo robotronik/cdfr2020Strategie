@@ -25,5 +25,6 @@ int main(){
                //emission d'une erreur
                break;
       }
+      delay_ms(1000);
    }
 }
