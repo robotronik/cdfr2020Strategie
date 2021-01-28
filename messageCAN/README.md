@@ -15,7 +15,11 @@
 
 **Quel espace est dédié à quelle donnée?**
 
--0-20    : Position
+-0       : bit d'arrêt d'urgence
+
+-1-3     : bit de définition de la trame
+
+-4-20    : Position
 
 -21-42   : Vitesse
 
@@ -27,6 +31,8 @@
 La F3 communique des informations relatives à la position et à la vitesse du robot.
 
 La F4 communique des informations relatives aux terrains.
+
+La Jetson pourrait envoyer la position relative du robot, la position des adversaires, la position de la girouette.
 
 **Quels messages sont prioritaires?**
 
